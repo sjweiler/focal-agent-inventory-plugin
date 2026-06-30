@@ -7,13 +7,40 @@ import (
 )
 
 func main() {
-	var req Request
-
-	if err := json.NewDecoder(os.Stdin).Decode(&req); err != nil {
+	req, err := readRequest()
+	if err != nil {
 		WriteError(err)
 		return
 	}
 
+	data, err := handleRequest(req)
+	if err != nil {
+		WriteError(err)
+		return
+	}
+
+	WriteJSON(Response{
+		Success: true,
+		Data:    data,
+	})
+}
+
+func readRequest() (Request, error) {
+	if len(os.Args) > 1 {
+		return Request{
+			Method: os.Args[1],
+		}, nil
+	}
+
+	var req Request
+	if err := json.NewDecoder(os.Stdin).Decode(&req); err != nil {
+		return Request{}, err
+	}
+
+	return req, nil
+}
+
+func handleRequest(req Request) (any, error) {
 	var data any
 	var err error
 
@@ -33,12 +60,8 @@ func main() {
 	}
 
 	if err != nil {
-		WriteError(err)
-		return
+		return nil, err
 	}
 
-	WriteJSON(Response{
-		Success: true,
-		Data:    data,
-	})
+	return data, nil
 }
