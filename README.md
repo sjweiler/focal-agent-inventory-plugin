@@ -1,5 +1,5 @@
-[![CI](https://github.com/sjweiler/focal-agent-inventory-plugin/actions/workflows/ci.yml/badge.svg)](...)
-[![CodeQL](https://github.com/sjweiler/focal-agent-inventory-plugin/actions/workflows/codeql.yml/badge.svg)](...)
+[![CI](https://github.com/sjweiler/focal-agent-inventory-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/sjweiler/focal-agent-inventory-plugin/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/sjweiler/focal-agent-inventory-plugin/actions/workflows/codeql.yml/badge.svg)](https://github.com/sjweiler/focal-agent-inventory-plugin/actions/workflows/codeql.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Go](https://img.shields.io/badge/Go-Language-00ADD8?logo=go&logoColor=white)
 ![Focal-Agent Plugin](https://img.shields.io/badge/Focal--Agent-Plugin-green)
