@@ -1,7 +1,7 @@
 [![CI](https://github.com/sjweiler/focal-agent-inventory-plugin/actions/workflows/ci.yml/badge.svg)](...)
 [![CodeQL](https://github.com/sjweiler/focal-agent-inventory-plugin/actions/workflows/codeql.yml/badge.svg)](...)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Go](https://img.shields.io/badge/Go-Language-00ADD8?logo=go&logoColor=white
+![Go](https://img.shields.io/badge/Go-Language-00ADD8?logo=go&logoColor=white)
 ![Focal-Agent Plugin](https://img.shields.io/badge/Focal--Agent-Plugin-green)
 ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue)
 ![Status](https://img.shields.io/badge/status-alpha-red)
