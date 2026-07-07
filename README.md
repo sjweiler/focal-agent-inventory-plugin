@@ -1,3 +1,11 @@
+[![CI](https://github.com/sjweiler/focal-agent-inventory-plugin/actions/workflows/ci.yml/badge.svg)](...)
+[![CodeQL](https://github.com/sjweiler/focal-agent-inventory-plugin/actions/workflows/codeql.yml/badge.svg)](...)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![.NET](https://img.shields.io/badge/.NET-10-purple)
+![Focal-Agent Plugin](https://img.shields.io/badge/Focal--Agent-Plugin-green)
+![Windows](https://img.shields.io/badge/Windows-10%2F11-blue)
+![Status](https://img.shields.io/badge/status-alpha-red)
+
 # \# Focal-Agent Inventory Plugin
 
 # 
